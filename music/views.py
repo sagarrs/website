@@ -7,3 +7,4 @@ def index(request):
 
 def detail(request, album_id):
 	return HttpResponse("<h2> Details for album - " + str(album_id) + "</h2>")
+
